@@ -18,12 +18,17 @@ header {
 input[type="text"] {
     border: 1px solid #ffffff;
     padding: 5px;
-    height: 20px;
+    height: 30px;
     width: 220px;
+    border-radius: 3px;
 }
 
 input[type="submit"] {
     text-transform: uppercase;
     border: 1px solid #ffffff;
     background-color: #00b8e2;
+    color: #ffffff;
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
 }
