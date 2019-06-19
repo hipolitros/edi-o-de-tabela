@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/* Reset CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00b8e2;
+    height: 20vh;
+}
+
+input[type="text"] {
+    border: 1px solid #ffffff;
+    padding: 5px;
+    height: 20px;
+    width: 220px;
+}
+
+input[type="submit"] {
+    text-transform: uppercase;
+    border: 1px solid #ffffff;
+    background-color: #00b8e2;
+}
