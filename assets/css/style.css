@@ -24,28 +24,31 @@ header {
 }
 
 input[type="text"] {
-    border: 1px solid #ffffff;
     padding: 5px;
     height: 30px;
     width: 220px;
-    border-radius: 3px;
+    border-radius: 2px;
     margin: 0 5px;
+    border: 1px solid #ffffff;
 }
 
 input[type="submit"] {
     text-transform: uppercase;
-    border: 1px solid #ffffff;
     background-color: #00b8e2;
     color: #ffffff;
+    border: 1px solid #ffffff;
     width: 100px;
     height: 40px;
-    border-radius: 3px;
+    border-radius: 2px;
     margin: 0 5px;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
+section {
+    width: 50%;
+}
+
+aside {
+    width: 50%;
 }
 
 article, h1 {
@@ -57,9 +60,7 @@ article {
     margin-bottom: 20px;
 }
 
-section {
-    width: 50%;
-}
+/*  TABELA  */
 
 table {
     border-collapse: collapse;
@@ -71,7 +72,7 @@ th, td {
 }
 
 .firstname, .lastname {
-    width: 150px;
+    width: 200px;
 }
 
 th.firstname, th.lastname {
@@ -82,44 +83,79 @@ th.firstname, th.lastname {
     text-align: center;
 }
 
-aside {
-    width: 50%;
+#meio-branco {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    transform: translate(45px, 45px);
+    background-color: #ffffff;
+    border-radius: 50%;    
 }
 
-.rosquinha {
-    border: 1px solid #000000;
-    width: 300px;
-    height: 300px;
+/*   GRAFICO   */
+
+#rosquinha {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.recorte {
     border-radius: 50%;
+    clip: rect(0, 200px, 200px, 100px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
 }
 
-.fatia1 {
-    border: 1px solid #ffffff;
-    background-color: #2d97de;
-    width: 20%;
-    height: 20%;
+.queijo {
+    border-radius: 50%;
+    clip: rect(0, 100px, 200px, 0);
+    height: 100%;
+    position: absolute;
+    width: 100%;
 }
-.fatia2 {
-    border: 1px solid #ffffff;
-    background-color: #b2b4b4;
-    width: 15%;
-    height: 15%;
+
+#fatia1 {
+    transform: rotate(0deg);
 }
-.fatia3 {
-    border: 1px solid #ffffff;
-    background-color:#9c55b8;
-    width: 20%;
-    height: 20%;
+
+#fatia1 .queijo {
+    background-color: #b2b4b4;/* Fernanda Oliveira */
+    transform: rotate(54deg);
 }
-.fatia4 {
-    border: 1px solid #ffffff;
-    background-color: #00bc9c;
-    width: 5%;
-    height: 5%;
+
+#fatia2 {
+    transform: rotate(54deg);
 }
-.fatia5 {
-    border: 1px solid #ffffff;
-    background-color: #e94a35;
-    width: 40%;
-    height: 40%;
+
+#fatia2 .queijo {
+    background-color: #9c55b8;/* Eliza Souza */
+    transform: rotate(72deg);
+}
+
+#fatia3 {
+    transform: rotate(126deg);
+}
+
+#fatia3 .queijo {
+    background-color:#e94a35;/* Anderson Santos */
+    transform: rotate(144deg);
+}
+
+#fatia4 {
+    transform: rotate(270deg);
+}
+#fatia4 .queijo {
+    background-color: #00bc9c;/* Carlos Moura */
+    transform: rotate(18deg);
+}
+
+#fatia5 {
+    transform: rotate(288deg);
+}
+
+#fatia5 .queijo {
+    background-color: #2d97de;/* Hugo Silva */
+    transform: rotate(72deg);
 }
