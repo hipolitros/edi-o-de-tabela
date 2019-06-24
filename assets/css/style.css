@@ -37,26 +37,89 @@ input[type="submit"] {
     background-color: #00b8e2;
     color: #ffffff;
     border: 1px solid #ffffff;
-    width: 100px;
+    width: 120px;
     height: 40px;
     border-radius: 2px;
     margin: 0 5px;
 }
 
-section {
-    width: 50%;
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 aside {
-    width: 50%;
+    display: flex;
 }
 
-article, h1 {
+#div-legenda {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+div.row {
+    display: flex;
+    flex-direction: row;
+}
+
+#azul {
+    color: #2d97de;
+}
+
+#verde {
+    color: #00bc9c;
+}
+
+#cinza {
+    color: #b2b4b4;
+}
+
+#roxo {
+    color: #9c55b8;
+}
+
+#vermelho {
+    color: #e94a35;
+}
+
+.legenda {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+#hugo {
+    background-color: #2d97de;
+    
+}
+
+#carlos {
+    background-color: #00bc9c;
+}
+
+#eliza {
+    background-color: #b2b4b4;
+}
+
+#fernanda {
+    background-color: #9c55b8;
+}
+
+#anderson {
+    background-color: #e94a35;
+}
+
+article#info-tabela, h1 {
     text-align: center;
     padding: 10px;
 }
 
-article {
+#info-tabela {
+    width: 100%;
     margin-bottom: 20px;
 }
 
@@ -72,7 +135,7 @@ th, td {
 }
 
 .firstname, .lastname {
-    width: 200px;
+    width: 150px;
 }
 
 th.firstname, th.lastname {
@@ -83,14 +146,6 @@ th.firstname, th.lastname {
     text-align: center;
 }
 
-#meio-branco {
-    width: 110px;
-    height: 110px;
-    position: absolute;
-    transform: translate(45px, 45px);
-    background-color: #ffffff;
-    border-radius: 50%;    
-}
 
 /*   GRAFICO   */
 
@@ -98,6 +153,16 @@ th.firstname, th.lastname {
     width: 200px;
     height: 200px;
     position: relative;
+    margin-right: 10px;
+}
+
+#meio-branco {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    transform: translate(45px, 45px);
+    background-color: #ffffff;
+    border-radius: 50%;    
 }
 
 .recorte {
@@ -122,7 +187,7 @@ th.firstname, th.lastname {
 
 #fatia1 .queijo {
     background-color: #b2b4b4;/* Fernanda Oliveira */
-    transform: rotate(54deg);
+    transform: rotate(52deg);
 }
 
 #fatia2 {
@@ -131,7 +196,7 @@ th.firstname, th.lastname {
 
 #fatia2 .queijo {
     background-color: #9c55b8;/* Eliza Souza */
-    transform: rotate(72deg);
+    transform: rotate(70deg);
 }
 
 #fatia3 {
@@ -140,7 +205,7 @@ th.firstname, th.lastname {
 
 #fatia3 .queijo {
     background-color:#e94a35;/* Anderson Santos */
-    transform: rotate(144deg);
+    transform: rotate(142deg);
 }
 
 #fatia4 {
@@ -148,7 +213,7 @@ th.firstname, th.lastname {
 }
 #fatia4 .queijo {
     background-color: #00bc9c;/* Carlos Moura */
-    transform: rotate(18deg);
+    transform: rotate(16deg);
 }
 
 #fatia5 {
@@ -157,5 +222,5 @@ th.firstname, th.lastname {
 
 #fatia5 .queijo {
     background-color: #2d97de;/* Hugo Silva */
-    transform: rotate(72deg);
+    transform: rotate(70deg);
 }
