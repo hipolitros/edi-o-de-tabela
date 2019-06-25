@@ -175,7 +175,7 @@ th.firstname, th.lastname {
 
 .queijo {
     border-radius: 50%;
-    clip: rect(0, 100px, 200px, 0);
+    clip: rect(0, 97px, 200px, 0);
     height: 100%;
     position: absolute;
     width: 100%;
@@ -187,7 +187,7 @@ th.firstname, th.lastname {
 
 #fatia1 .queijo {
     background-color: #b2b4b4;/* Fernanda Oliveira */
-    transform: rotate(52deg);
+    transform: rotate(54deg);
 }
 
 #fatia2 {
@@ -196,7 +196,7 @@ th.firstname, th.lastname {
 
 #fatia2 .queijo {
     background-color: #9c55b8;/* Eliza Souza */
-    transform: rotate(70deg);
+    transform: rotate(72deg);
 }
 
 #fatia3 {
@@ -205,7 +205,7 @@ th.firstname, th.lastname {
 
 #fatia3 .queijo {
     background-color:#e94a35;/* Anderson Santos */
-    transform: rotate(142deg);
+    transform: rotate(144deg);
 }
 
 #fatia4 {
@@ -213,7 +213,7 @@ th.firstname, th.lastname {
 }
 #fatia4 .queijo {
     background-color: #00bc9c;/* Carlos Moura */
-    transform: rotate(16deg);
+    transform: rotate(18deg);
 }
 
 #fatia5 {
@@ -222,5 +222,5 @@ th.firstname, th.lastname {
 
 #fatia5 .queijo {
     background-color: #2d97de;/* Hugo Silva */
-    transform: rotate(70deg);
+    transform: rotate(72deg);
 }
