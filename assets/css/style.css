@@ -19,7 +19,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #00b8e2;
+    background-color: #37bad8;
     height: 20vh;
 }
 
@@ -33,6 +33,7 @@ input[type="text"] {
 }
 
 input[type="submit"] {
+    font-weight: bold;
     text-transform: uppercase;
     background-color: #00b8e2;
     color: #ffffff;
