@@ -93,7 +93,7 @@ div.row {
     margin-right: 10px;
 }
 
-#hugo {
+/* #hugo {
     background-color: #2d97de;
     
 }
@@ -112,6 +112,12 @@ div.row {
 
 #anderson {
     background-color: #e94a35;
+} */
+
+#fernanda-fatia {
+    position: relative;
+    transform: translate(110px);
+    transform: rotate(20deg);
 }
 
 article#info-tabela, h1 {
